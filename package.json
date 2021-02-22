@@ -4,7 +4,7 @@
   "description": "Host websites easliy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test to run\""
   },
   "repository": {
     "type": "git",
