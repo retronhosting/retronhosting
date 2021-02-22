@@ -28,12 +28,10 @@ app.get('*', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('server started');
-  console.log(data)
+  console.log('Website loaded!');
 });
 module.exports = {
   setup: (options) => {
-    console.log(options)
     data = JSON.parse(fs.readFileSync(options, {encoding:'utf8', flag:'r'}));
   }
 }
